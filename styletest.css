@@ -1,0 +1,390 @@
+body{
+  /* display: flex; */
+background: aqua;
+padding: 100px 100px;
+margin: 0;
+justify-content: center;
+}
+
+
+
+  .shtuka1{
+    display:flex;
+    width: 600px;
+    background-color: white;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .p1{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+    padding-left: 25px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    
+  }
+  .p1::after{
+    content: "";
+    width: 14px;
+    height: 0.5px;
+    background-color: rgb(211, 210, 210);
+    position: absolute;
+    left:12px;
+    color: grey;
+  }
+
+  .p1::before{
+     content: "-";
+     width: 10px;
+     height: 10px;
+     border: 1px solid rgb(211, 210, 210);
+     position: absolute;
+     transform: translateY(-50%);
+     left: 0;
+     top: 20px;
+     line-height: 40%;
+     text-align: center;
+
+
+  }
+
+  .p1-1{
+     width: 300px;
+     height: 40px;
+     line-height: 40px;
+     background-color: white;
+     font-weight: bold;
+     color: gray;
+
+  }
+
+  .p2{
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+    position: relative;
+    color: gray;
+    padding-left: 45px;
+    display: flex;
+    align-items: center;
+ }
+
+ .p2::after{
+    content: "";
+    width: 14px;
+    height: 0.5px;
+    position: absolute;
+    background-color: rgb(211, 210, 210);
+    left: 31px;
+}
+
+.p2::before{
+    content: "-";
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(211, 210, 210);
+    position: absolute;
+    left: 19px;
+    text-align: center;
+    line-height: 40%;
+}
+
+.p2-2{
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color: gray;
+  background-color: white;
+}
+
+.p3{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: gray;
+  padding-left: 65px;
+  
+}
+
+.p3::after{
+  content: "";
+  width: 14px;
+  height: 0.5px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: 51px;
+}
+
+.p3::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  position: absolute;
+  left: 39px;
+  text-align: center;
+  line-height: 30%;
+
+}
+
+.p3-3{
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  line-height: 40px;
+  color: gray;
+  position: relative;
+}
+
+.p3-3::before{
+  content: "";
+  width: 0.5px;
+  height: 109px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: -259px;
+  z-index: 1;
+  top: -54px;
+}
+
+.p4{
+width: 200px;
+height: 40px;
+background-color: white;
+color: rgb(49, 90, 228);
+font-weight: bold;
+position: relative;
+display: flex;
+align-items: center;
+padding-left: 25px;
+}
+
+.p4::after{
+  content: "";
+    width: 14px;
+    height: 0.5px;
+    background-color: rgb(211, 210, 210);
+    position: absolute;
+    left:12px;
+    color: grey;
+}
+
+.p4::before{
+  content: "-";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  color: gray;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 0px;
+  top: 20px;
+  line-height: 40%;
+  text-align: center; 
+}
+
+.p4-4{
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  line-height: 40px;
+  font-weight: bold;
+  color: rgb(49, 90, 228);
+}
+
+.p4-4::before{
+  content: "";
+  width: 0.5px;
+  height: 28px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: 45px;
+  z-index: 1;
+  top: 226px;
+}
+
+.p4-4::after{
+  content: "";
+  width: 0.5px;
+  height: 28px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: 45px;
+  z-index: 1;
+  top: 266px;
+
+}
+
+.p5{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  font-weight: bold;
+  position: relative;
+  color: rgb(49, 90, 228);
+  padding-left: 45px;
+  display: flex;
+  align-items: center; 
+}
+
+.p5::after{
+  content: "";
+  width: 14px;
+  height: 0.5px;
+  position: absolute;
+  background-color: rgb(211, 210, 210);
+  left: 31px;
+}
+
+.p5::before{
+  content: "-";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  position: absolute;
+  left: 19px;
+  text-align: center;
+  line-height: 40%;
+  color:gray;
+} 
+
+.p5-5{
+  width: 300px;
+  height: 40px;
+  background-color: white;
+  line-height: 40px;
+  font-weight: bold;
+  color: rgb(49, 90, 228); 
+
+}
+
+.p5-5::before{
+  content: "";
+  width: 0.5px;
+  height: 28px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: 45px;
+  z-index: 1;
+  top: 306px;
+  }
+
+  .p5-5:after{
+    content: "";
+    width: 0.5px;
+    height: 214px;
+    background-color: rgb(211, 210, 210);
+    position: absolute;
+    left: 6px;
+    z-index: 1;
+    top: 146px;
+
+  }
+
+.p6{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: gray;
+  padding-left: 65px;
+}
+
+.p6::after{
+  content: "";
+  width: 14px;
+  height: 0.5px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: 51px;
+}
+.p6::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  position: absolute;
+  left: 39px;
+  text-align: center;
+  line-height: 30%; 
+}
+
+.p6-6{
+  width: 240px;
+  height: 40px;
+  background-color: white;
+  line-height: 40px;
+  color: gray;
+  position: relative;
+}
+
+.p7{
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: rgb(49, 90, 228);
+  padding-left: 65px;
+}
+
+.p7::after{
+  content: "";
+  width: 14px;
+  height: 0.5px;
+  background-color: rgb(211, 210, 210);
+  position: absolute;
+  left: 51px;
+}
+
+.p7::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(211, 210, 210);
+  position: absolute;
+  left: 39px;
+  text-align: center;
+  line-height: 30%;  
+}
+
+.p7-7{
+  width: 240px;
+  height: 40px;
+  background-color: white;
+  line-height: 40px;
+  color: rgb(49, 90, 228);
+  position: relative;
+}
+
+.p8-8{
+  width: 240px;
+  height: 40px;
+  background-color: white;
+  line-height: 40px;
+  color: rgb(49, 90, 228);
+  position: relative; 
+}
+
+.input{
+  width: 100px;
+  border: 0.5px solid rgb(211, 210, 210);
+  border-radius: 3px;
+}
+
+
+
+
